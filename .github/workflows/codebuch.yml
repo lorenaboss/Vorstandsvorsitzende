@@ -9,26 +9,27 @@ erstellt von Eva, Lorena, Julika, Cameron
 
 ## Ursprung und Datenerhebung
 
-
 Das Netzwerk ist ein *ungerichtetes two-mode Akteursnetzwerk*. 
 
 # EDGE-Attribute
 
-
 **id**  
 (eindeutige Codierung des Knoten)   
 
+**weight**
+1= sehr schwache Beziehung
+5= sehr starke Beziehung
 
-
-
-**relation**
-Beziehungsart zwischen den Personen  
-1 = *work* Projektbasierte Beziehung: Bei einem gerichteten Netzwerk präferiert der Sender (erste Spalte) die Zusammenarbeit mit der genannten Zielperson (zweite Spalte).  
-2 = *help* Unterstützungsbeziehung: Bei einem gerichteten Netzwerk fragt der Sender (erste Spalte) die genannte Person (zweite Spalte) um Rat.  
-3 = 
+**relationship**
+Beziehungsart zwischen den Personen/Organisationen  
+1 = geschäftlich
+2 = privat 
 
 **time**  
-
+1 = 0-3 Jahre
+2 = 4-6 Jahre
+3 = 7-9 Jahre
+4 = über 9 Jahre
 
 
 # NODE-Attribute  
@@ -40,34 +41,55 @@ Identische ID wie aus der edgelist zur Identifikation der Knoten. In diesem Fall
 Bitte geben Sie ihr Geschlecht an:  
 1 = weiblich  
 2 = männlich  
-3 = divers
-  
-**company***    
-1 =   
-2 = 
-3=
-4=
+3 = divers  
 
-**age**   
-Bitte geben Sie Ihr Alter an:  
+
+**age**    
 in Jahrgang
 
-**power**    
+**power**  
+1 = sehr gering
+5 = sehr hoch
 
+**company***    
+1 =  Edeka 
+2 =  REWE Group
+3 =  Schwarz Gruppe
+4 =  Metro
+5 =  Tengelmann 
   
 **type**     
 1 = Organisation 
 2 = Person
   
-**education**       
+**education**  
+#höchster Bildungsabschluss     
 1 = Wirtschaftswissenschaften   
-2 =    
-3 =    
-4 =      
+2 = Naturwissenschaften    
+3 = Ingenieurswissenschaften   
+4 = Geisteswissenschaften
+5 = Sozialwissenschaften     
 
 **internationality**  
+#Auslandsaufenthalt
 
-1 =       
-2 =    
-3 =     
-4 =   
+1 =  ja     
+2 =  nein  
+
+**nationality**  
+#nach Pass
+
+1 =  deutsch    
+2 =  französisch 
+3 =  itallienisch 
+4 =  amerikanisch
+5 =  sontige
+
+**status**  
+
+
+1 =  Eigentümer  
+2 =  Aufsichtsrat
+3 =  Vorstandsmitglied
+4 =  
+
